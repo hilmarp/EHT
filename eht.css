@@ -1,0 +1,77 @@
+#header-h1 {
+	margin: 0;
+}
+
+.navbar-inverse {
+	background-color: rgba(241, 241, 241, 0.4);
+	border-color: #eee;
+}
+
+.navbar .container {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.navbar-header .navbar-brand {
+	/*font-family: 'Audiowide', cursive;*/
+	font-size: 40px;
+	font-weight: bold;
+	color: #666;
+}
+
+.navbar-nav > li > a:hover {
+	color: rgb(177, 177, 177) !important;
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+	.navbar-header .navbar-brand {
+		font-size: 30px !important;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+	.navbar-header .navbar-brand {
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-header .navbar-brand {
+		font-size: 16px !important;
+	}
+
+	.navbar .container {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+@media (max-width: 630px) {
+	#g-map {
+		display: none;
+	}
+}
+
+#header-eh {
+	color: #000;
+}
+
+#header-tolvu {
+	color: #000;
+}
+
+.carousel-inner > .item > img { margin: 0 auto; }
+
+.panel-featured {
+	margin-top: 25px;
+}
+
+.fa {
+	opacity: 0.8;
+	margin: 0 auto !important;
+}
+
+.panel-body h2 {
+	text-align: center;
+	font-size: 20px;
+}
